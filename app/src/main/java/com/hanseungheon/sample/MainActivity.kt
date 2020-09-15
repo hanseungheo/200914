@@ -9,9 +9,5 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        good.setOnClickListener {
-            tv.text=edittext.text.toString()
-            edittext.setText("")
-        }
     }
 }
